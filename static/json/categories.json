@@ -1,0 +1,10 @@
+{
+    "Celebrations & Events": {
+        "weddings": ["dining", "decorations"],
+            "new baby": ["balloons", "soft toys"]
+    },
+    "art": {
+        "print": ["digital", "etchings"],
+        "sketch": ["portrait", "landscape"]
+    }
+}
