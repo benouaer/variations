@@ -31,6 +31,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/views/static'));
 app.use('/', index);
 app.use('/users', users);
 
